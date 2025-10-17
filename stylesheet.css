@@ -1,0 +1,58 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+/* ID selector */
+#main-title {
+  color: #bf5700;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* Class selector */
+.tagline {
+  text-align: center;
+  font-style: italic;
+  color: #555;
+}
+
+/* Box-model properties */
+.section {
+  margin: 2rem;
+  padding: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+/* Image styling */
+.profile-image {
+  width: 300px;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 10px;
+}
+
+/* Link hover color change */
+a {
+  color: #bf5700;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff6600;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+}
